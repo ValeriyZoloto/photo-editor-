@@ -1,0 +1,48 @@
+body {
+	font-family: "Rubik Mono One", sans-serif;
+}
+.canvas {
+	border: 5px solid black;
+	border-radius: 5px;
+	margin-right: 50px;
+}
+.gray {
+	color: gray;
+}
+.red {
+	color: red;
+}
+.blue {
+	color: blue;
+}
+.green {
+	color: green;
+}
+input {
+	margin-bottom: 20px;
+}
+input {
+	font-family: "Rubik Mono One", sans-serif;
+}
+.button {
+	display: inline-block; /*чтобы корректно работали стили блочной модели*/
+	padding: 0.29307em 1.26923em 0.338461em;
+	background-color: #f72464;
+	box-shadow: 0px 4px 15px rgba(123, 12, 46, 0.35);
+	border-radius: 4px;
+	font-family: "Playfair Display", serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 1;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+    cursor: pointer;
+	transition: box-shadow 0.2s ease-in, background-color 0.2s ease-in;
+}
+
+.button:hover {
+	box-shadow: 0px 4px 25px rgba(184, 13, 64, 0.671);
+	background-color: #ff3874;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Фото редактор</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./CSS/style.css" />
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td>
+					<canvas class="canvas" id="canvas"></canvas>
+				</td>
+				<td>
+					<label class="gray" for="filterGray">
+						<input  type="checkbox" id="filterGray" /> Фильтр серого 
+					</label>
+					<br />
+
+					<label class="red" for="filterRed">
+						<input type="checkbox" id="filterRed" /> Фильтр красного 
+					</label>
+					<br />
+
+					<label class="blue" for="filterBlue">
+						<input type="checkbox" id="filterBlue" /> Фильтр синего 
+					</label>
+					<br />
+
+					<label class="green" for="filterGreen">
+						<input type="checkbox" id="filterGreen" /> Фильтр зеленого 
+					</label>
+					<br />
+                    <div class="input__wrapper">
+					<input class="input" type="file" accept="image/*" id="loadImage" />
+                    </div>
+					<button class="button" id="dowload">Скачать</button>
+				</td>
+			</tr>
+		</table>
+
+		<script src="additional.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
